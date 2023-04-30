@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 export default function Tail() {
   const [toggle, setToggle] = useState<boolean>(false);
-
+  const [toggle2, setToggle2] = useState<boolean>(false);
   const toggleMenu = (): void => {
     setToggle((cur:boolean) => !cur);
   }
