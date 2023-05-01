@@ -14,6 +14,7 @@ export default function Input() {
     <>
       <h1>{string}</h1>
       <input ref={inputRef} onChange={handleChange}/>
+      <input ref={inputRef} onChange={handleChange}/>
     </>
   )
 }
